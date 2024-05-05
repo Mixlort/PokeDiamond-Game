@@ -1,0 +1,40 @@
+<monster name="Ditto" nameDescription="a ditto" race="normal" race2="no race" experience="400" speed="158">
+  <health now="48" max="48" />
+    <look type="379" corpse="11861" />
+  <targetchange interval="10000" chance="0" />
+<flags>
+ <flag summonable="1" />
+ <flag attackable="1" />
+ <flag hostile="1" />
+<flag passive="1" />
+ <flag illusionable="1" />
+ <flag convinceable="1" />
+ <flag pushable="1" />
+ <flag canpushitems="0" />
+ <flag canpushcreatures="0" />
+ <flag targetdistance="1" />
+ 
+ <flag runonhealth="0" />
+ <flag canteleport="21" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+
+<attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100">  </attack>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="DITTO!" />
+ </voices>
+
+  <loot>
+  </loot>
+
+</monster>

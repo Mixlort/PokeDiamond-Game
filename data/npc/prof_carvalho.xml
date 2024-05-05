@@ -1,0 +1,4 @@
+﻿<npc name="Professor Carvalho" script="prof_carvalho.lua" walkinterval="0" floorchange="0">
+    <look type="2898" head="114" body="114" legs="114" feet="88" addons="0" /> <!-- 1987 -->
+    <parameters></parameters>
+</npc>

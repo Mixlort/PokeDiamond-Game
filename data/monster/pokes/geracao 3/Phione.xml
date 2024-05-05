@@ -1,0 +1,44 @@
+<monster name="Phione" nameDescription="a Phione" race="undead" race2="no race" experience="25000" speed="260">
+  <health now="40000000" max="40000000" />
+    <look type="1679" corpse="2020" />
+
+  	<targetchange interval="1000" chance="1000" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="0" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="15" />
+  </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+    <attack name="headbutt" interval="1000" chance="50" min="-4000" max="-80000">
+    </attack>
+    <attack name="iron tail" interval="3500" chance="90" min="-40000" max="-140000">
+    </attack>
+    <attack name="bubblebeam" interval="7000" chance="90" min="-19008" max="-210008">
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="1">
+
+  </defenses>
+	<voices interval="2000" chance="10">
+		<voice sentence="PhIONE" />
+		<voice sentence="pHIONE" />
+	</voices>
+	<loot>
+		<item id="7159" countmax="20" chance="5000" />
+		<item id="6569" countmax="8" chance="1000" />
+		<item id="7159" countmax="20" chance="2000" />
+		<item id="5810" chance="150" />
+	</loot>
+</monster>

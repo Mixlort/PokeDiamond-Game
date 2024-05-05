@@ -1,0 +1,33 @@
+<monster name="Magikarp" nameDescription="a magikarp" race="water" race2="no race" experience="200" speed="190">
+    <health now="20" max="20" />
+    <look type="370" corpse="11911" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="25" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Splash" interval="2429" chance="32" range="6" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="MAGIKARP!" />
+    </voices>
+    <loot>
+        <item id="12334" chance="30000" />
+    </loot>
+</monster>

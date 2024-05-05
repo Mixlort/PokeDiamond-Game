@@ -1,0 +1,36 @@
+<monster name="Wobbuffet" nameDescription="a wobbuffet" race="psychic" race2="no race" experience="0" speed="130">
+    <health now="190" max="190" />
+    <look type="924" corpse="4756" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+  <attacks>
+	<attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="WOBBUU!" />
+<voice sentence="FFEET!" />
+<voice sentence="WOBBUFFET!" />
+  </voices>
+  <loot>
+  </loot>
+
+</monster>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />
+
+    <globalevent name="loteriaa" time="19:05" script="gold/loteria.lua"/>
+    <globalevent name="loteriab" time="00:05" script="gold/loteria.lua"/>
+    <globalevent name="loteriao" time="05:05" script="gold/loteria.lua"/>
+    <globalevent name="loterias" time="10:05" script="gold/loteria.lua"/>
+    <globalevent name="loteriae" time="15:05" script="gold/loteria.lua"/>
+    <globalevent name="loteriaf" time="20:05" script="gold/loteria.lua"/>
+    <globalevent name="loteriag" time="01:05" script="gold/loteria.lua"/>
+    <globalevent name="loteriah" time="06:05" script="gold/loteria.lua"/>
+    <globalevent name="loteriai" time="11:05" script="gold/loteria.lua"/>
+    <globalevent name="loteriaj" time="15:35" script="gold/loteria.lua"/>
+    <globalevent name="loteriak" time="20:45" script="gold/loteria.lua"/>
+    <globalevent name="loterial" time="01:05" script="gold/loteria.lua"/>
+    <globalevent name="Teleport Automatico" time="22:00" script="gold/Saturday.lua"/>
+    <globalevent name="autobroadcast" interval="1200000" script="gold/cbar.lua"/> 
+</globalevents>

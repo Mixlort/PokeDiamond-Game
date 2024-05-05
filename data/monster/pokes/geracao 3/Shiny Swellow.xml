@@ -1,0 +1,38 @@
+<monster name="Shiny Swellow" nameDescription="an Shiny Swellow" race="normal" race2="flying" experience="356" speed="245">
+    <health now="100" max="100" />
+    <look type="2186" corpse="12723" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Fury Attack" interval="2946" chance="28" range="1" />
+        <attack name="Peck" interval="2664" chance="30" range="1" />
+        <attack name="Drill Peck" interval="2993" chance="28" range="1" />
+    </attacks>
+  <defenses armor="0" defense="0" />
+<voices interval="5000" chance="10">
+	<voice sentence="Swellow!" />
+  </voices>
+ <loot>
+        <item id="12200" chance="4000" />
+        <item id="12172" chance="4000" />
+        <item id="11453" chance="100" />
+    </loot>
+</monster>

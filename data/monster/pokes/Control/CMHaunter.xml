@@ -1,0 +1,32 @@
+<monster name="Control Haunter" nameDescription="a Control Haunter" race="undead" race2="no race" experience="0" speed="0">
+	<health now="300000" max="300000" />
+	    <look type="665" corpse="0" />
+	<targetchange interval="5000" chance="20" />
+
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="0" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		
+		<flag runonhealth="100" />
+		<flag hidehealth="1" />
+	</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+
+	<attacks>
+	</attacks>
+	<defenses armor="1" defense="1" />
+
+	<loot>
+	</loot>
+
+</monster>

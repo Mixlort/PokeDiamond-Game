@@ -1,0 +1,40 @@
+<monster name="Tauros" nameDescription="a tauros" race="normal" race2="no race" experience="900" speed="230">
+    <health now="75" max="75" />
+    <look type="444" corpse="11971" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag passive="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="17" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Headbutt" interval="2758" chance="30" range="1" />
+        <attack name="Body Slam" interval="2899" chance="29" range="1" />
+        <attack name="Horn Attack" interval="2805" chance="29" range="1" />
+        <attack name="Rage" interval="5087" chance="28" range="5" />
+        <attack name="Thrash" interval="3275" chance="26" range="5" />
+        <attack name="Fear" interval="5369" chance="26" range="5" />
+        <attack name="Hyper Beam" interval="3910" chance="25" range="6" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="TAUROS!" />
+    </voices>
+    <loot>
+        <item id="11453" chance="100" />
+    </loot>
+</monster>

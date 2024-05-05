@@ -1,0 +1,5 @@
+﻿<npc name="Professora Selene" script="Professora Selene.lua" walkinterval="2000" floorchange="0">
+<look type="1984"/>
+	<parameters>
+	</parameters>
+</npc>

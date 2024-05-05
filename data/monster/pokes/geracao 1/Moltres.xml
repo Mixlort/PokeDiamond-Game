@@ -1,0 +1,34 @@
+<monster name="Moltres" nameDescription="a moltres" race="fire" race2="flying" experience="35590" speed="2100">
+    <health now="10006" max="10006" />
+    <look type="616" corpse="11921" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="15" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="MOLTRES!" />
+    </voices>
+    <loot>
+        <item id="12152" chance="50000" />
+        <item id="12162" chance="50000" countmax="40" />
+        <item id="11447" chance="200" />
+    </loot>
+</monster>

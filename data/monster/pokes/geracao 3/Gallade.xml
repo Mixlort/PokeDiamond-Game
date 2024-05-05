@@ -1,0 +1,55 @@
+<monster name="Gallade" nameDescription="a Gallade" race="psychic" race2="fighting" experience="204.6" speed="200">
+    <health now="68" max="68" />
+    <look type="1667" corpse="12698" />
+  <targetchange interval="0" chance="0" />
+<flags>
+ <flag summonable="1" />
+ <flag attackable="1" />
+ <flag hostile="1" />
+ <flag illusionable="1" />
+ <flag convinceable="1" />
+ <flag pushable="1" />
+ <flag canpushitems="0" />
+ <flag canpushcreatures="0" />
+ <flag targetdistance="5" />
+ 
+ <flag runonhealth="0" />
+ <flag canteleport="20" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+
+<attacks>
+        <attack name="physical" interval="2000" chance="100" range="6" min="-50" max="-100">
+        <attribute key="shootEffect" value="eartharrow" />
+        </attack>
+        <attack name="Confusion" interval="2617" chance="30" range="6">
+        </attack>
+        <attack name="Restore" interval="4920" chance="20" range="6">
+        </attack>
+        <attack name="Psy Pulse" interval="2852" chance="29" range="6">
+        </attack>
+        <attack name="Psybeam" interval="3275" chance="26" range="6">
+        </attack>
+        <attack name="Psychic" interval="3510" chance="25" range="6">
+        </attack>
+        <attack name="Reflect" interval="6330" chance="17" range="6">
+        </attack>
+        <!-- <attack name="Future Sight" interval="3980" chance="22" range="6"> -->
+        <!-- </attack> -->
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="Gallade!" />
+ </voices>
+
+  <loot>
+  </loot>
+
+</monster>

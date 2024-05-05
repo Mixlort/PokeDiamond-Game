@@ -1,0 +1,42 @@
+<monster name="Boss Metagross" nameDescription="a Boss metagross" race="grass" race2="no race" experience="3410" speed="212">
+  <health now="7000" max="7000" />
+    <look type="2135" corpse="12566" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+  <attacks>
+	  <attack name="melee" interval="2000" chance="100" range="1" min="-162" max="-221" />
+        <attack name="Iron Tail" interval="5625" chance="18" range="3" />
+        <attack name="Rock Throw" interval="3275" chance="26" range="8" />
+        <attack name="Rock Slide" interval="3228" chance="27" range="6" />
+        <attack name="Earthshock" interval="3510" chance="25" range="5" />
+        <attack name="Falling Rocks" interval="6330" chance="17" range="6" />
+        <attack name="Harden" interval="3275" chance="26" range="1" />
+        <attack name="Stone Edge" interval="2825" chance="28" range="1" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="Meta!" />
+<voice sentence="gross!" />
+<voice sentence="Metagross!" />
+  </voices>
+  <loot>
+  </loot>
+</monster>

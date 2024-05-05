@@ -1,0 +1,39 @@
+<monster name="Ledyba" nameDescription="a ledyba" race="bug" race2="flying" experience="76" speed="117">
+    <health now="40" max="40" />
+    <look type="684" corpse="3563" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Headbutt" interval="2476" chance="31" range="1" />
+        <attack name="String Shot" interval="2664" chance="30" range="3" />
+        <attack name="Bug Bite" interval="2852" chance="29" range="1" />
+        <attack name="Gust" interval="3040" chance="28" range="5" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+  <voices interval="5000" chance="10">
+	<voice sentence="LEEEDY!" />
+<voice sentence="DYBAA!" />
+<voice sentence="LEDYBA!" />
+  </voices>
+ <loot>
+        <item id="12173" chance="4000" />
+    </loot>
+</monster>

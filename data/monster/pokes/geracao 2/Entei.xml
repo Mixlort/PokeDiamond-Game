@@ -1,0 +1,36 @@
+<monster name="Entei" nameDescription="an entei" race="fire" race2="no race" experience="2003" speed="180">
+    <health now="10000" max="10000" />
+    <look type="956" corpse="3286" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+  <attacks>
+	<attack name="melee" interval="2000" chance="100" range="1" min="-246" max="-269">
+   	</attack>
+  </attacks>
+  <defenses armor="0" defense="0" />
+<voices interval="5000" chance="10">
+	<voice sentence="EEEN!" />
+<voice sentence="TEEEI!" />
+<voice sentence="ENTEI!" />
+  </voices>
+  <loot>
+  <item id="13397" chance="2000" />
+  </loot>
+</monster>

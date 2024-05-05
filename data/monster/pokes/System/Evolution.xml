@@ -1,0 +1,33 @@
+<monster name="Evolution" nameDescription="" race="electric" race2="no race" experience="0" speed="0">
+  <health now="10000" max="10000" />
+    <look type="100" corpse="0" />
+  <targetchange interval="10000" chance="0" />
+<flags>
+ <flag summonable="1" />
+ <flag attackable="0" />
+ <flag hostile="1" />
+ <flag illusionable="1" />
+ <flag convinceable="1" />
+ <flag pushable="0" />
+ <flag canpushitems="0" />
+ <flag canpushcreatures="0" />
+ <flag targetdistance="1" />
+ 
+ <flag runonhealth="0" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+
+<attacks>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+  <loot>
+  </loot>
+
+</monster>

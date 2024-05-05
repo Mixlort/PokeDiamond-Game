@@ -1,0 +1,8 @@
+<npc name="Delia Ketchum" script="delia ketchum.lua" walkinterval="2000" floorchange="0">
+	<look type="3377" head="96" body="118" legs="81" feet="95" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Filho, você está atrasado para a escolha do seu primeiro pokémon, corra para o laboratório!!" />
+		<parameter key="message_farewell" value="Espero que ainda tenha sobrado pokémons pra você!" />
+		<parameter key="message_walkaway" value="Espero que ainda tenha sobrado pokémons pra você!" />
+	</parameters>
+</npc>

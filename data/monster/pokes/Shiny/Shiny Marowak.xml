@@ -1,0 +1,47 @@
+<monster name="Shiny Marowak" nameDescription="a Shiny marowak" race="ground" race2="no race" experience="372" speed="165">
+    <health now="60" max="60" />
+    <look type="1299" corpse="12525" />
+  <targetchange interval="10000" chance="0" />
+<flags>
+ <flag summonable="1" />
+ <flag attackable="1" />
+ <flag hostile="1" />
+ <flag illusionable="1" />
+ <flag convinceable="1" />
+ <flag pushable="1" />
+ <flag canpushitems="0" />
+ <flag canpushcreatures="0" />
+ <flag targetdistance="1" />
+ 
+ <flag runonhealth="0" />
+ <flag canteleport="19" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+
+<attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Headbutt" interval="2711" chance="30" range="1" />
+        <attack name="Bone Club" interval="2852" chance="29" range="3" />
+        <attack name="Bonemerang" interval="2946" chance="28" range="6" />
+        <attack name="Bone Slash" interval="2758" chance="30" range="3" />
+        <attack name="Rage" interval="3258" chance="30" range="6" />
+        <attack name="Shockwave" interval="3416" chance="26" range="6" />
+		<attack name="Earthshock" interval="3516" chance="26" range="6" />
+		<attack name="Mud Shot" interval="2916" chance="25" range="3" />
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="MAROWAK!" />
+ </voices>
+
+  <loot>
+  </loot>
+
+</monster>

@@ -1,0 +1,48 @@
+<monster name="Bellsprout" nameDescription="a bellsprout" race="grass" race2="no race" experience="124" speed="117">
+  <health now="400" max="400" />
+    <look type="601" corpse="11845" />
+  <targetchange interval="10000" chance="0" />
+<flags>
+ <flag summonable="1" />
+ <flag attackable="1" />
+ <flag hostile="1" />
+<flag passive="1" />
+ <flag illusionable="1" />
+ <flag convinceable="1" />
+ <flag pushable="1" />
+ <flag canpushitems="0" />
+ <flag canpushcreatures="0" />
+ <flag targetdistance="1" />
+ 
+ <flag runonhealth="0" />
+ <flag canteleport="24" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+
+<attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100">  </attack>
+        <attack name="Razor Leaf" interval="2664" chance="30" range="4">
+        </attack>
+        <!-- <attack name="Slash" interval="2758" chance="30" range="1"> -->
+        <!-- </attack> -->
+        <attack name="Acid" interval="2758" chance="30" range="3">
+        </attack>
+        <attack name="Vine Whip" interval="2899" chance="29" range="6">
+        </attack>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="BELLSPROUT!" />
+ </voices>
+
+  <loot>
+  </loot>
+
+</monster>

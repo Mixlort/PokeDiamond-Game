@@ -1,0 +1,41 @@
+<monster name="Staraptor" nameDescription="a Staraptor" race="normal" race2="flying" experience="884" speed="220">
+    <health now="85" max="85" />
+    <look type="1584" corpse="149" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="18" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Quick Attack" interval="2617" chance="30" range="1" />
+        <attack name="Sand Attack" interval="2476" chance="31" range="3" />
+        <attack name="Whirlwind" interval="2758" chance="20" range="5" />
+        <attack name="Drill Peck" interval="2852" chance="25" range="1" />
+		<attack name="Wing Attack" interval="2852" chance="20" range="5" />
+		<attack name="Tornado" interval="4852" chance="20" range="4" />
+		<attack name="Strafe" interval="3952" chance="20" range="4" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="Staraptor!" />
+    </voices>
+    <loot>
+        <item id="12200" chance="4000" />
+        <item id="12172" chance="4000" />
+        <item id="11453" chance="100" />
+    </loot>
+</monster>

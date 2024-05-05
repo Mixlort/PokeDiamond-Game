@@ -1,0 +1,40 @@
+<monster name="Swinub" nameDescription="a swinub" race="ice" race2="ground" experience="0" speed="112">
+    <health now="50" max="50" />
+    <look type="927" corpse="4448" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-22" max="-38" />
+		<attack name="Mud Bomb" interval="2852" chance="29" range="3" />
+        <attack name="Ice Shards" interval="2758" chance="30" range="4" />
+        <attack name="Earthshock" interval="2993" chance="28" range="6" />
+        <attack name="Icy Wind" interval="2711" chance="30" range="6" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="SWIII!" />
+<voice sentence="NUUUB!" />
+<voice sentence="SWINUB!" />
+  </voices>
+  <loot>
+	<item id="12163" countmax="22" chance="45000" /> 
+  </loot>
+</monster>

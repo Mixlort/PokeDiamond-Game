@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vocations>
+    <vocation id="0" clientid="0" name="None" description="none" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="440" soulmax="10000" gainsoulticks="0" allowPvp="0" fromvoc="0">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+    <vocation id="1" clientid="3" name="Sorcerer" description="a sorcerer" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="440" soulmax="10000" gainsoulticks="0" fromvoc="1" noPongKickTime="40">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+    <vocation id="2" clientid="4" name="Druid" description="a druid" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="440" soulmax="10000" gainsoulticks="0" fromvoc="2" noPongKickTime="40">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+    <vocation id="3" clientid="2" name="Paladin" description="a paladin" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="440" soulmax="10000" gainsoulticks="0" fromvoc="3" noPongKickTime="50">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+    <vocation id="4" clientid="1" name="Knight" description="a knight" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="440" soulmax="10000" gainsoulticks="0" fromvoc="4">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+    <vocation id="5" clientid="13" name="Master Sorcerer" description="a master sorcerer" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="660" soulmax="10000" gainsoulticks="0" fromvoc="1" noPongKickTime="40">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+    <vocation id="6" clientid="14" name="Elder Druid" description="an elder druid" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="660" soulmax="10000" gainsoulticks="0" fromvoc="2" noPongKickTime="40">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+    <vocation id="7" clientid="12" name="Royal Paladin" description="a royal paladin" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="660" soulmax="10000" gainsoulticks="0" fromvoc="3" noPongKickTime="50">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+    <vocation id="8" clientid="11" name="Elite Knight" description="an elite knight" gaincap="0" gainhp="5" gainmana="0" gainhpticks="5" gainhpamount="5" gainmanaticks="0" gainmanaamount="0" manamultiplier="1.0" attackspeed="2000" basespeed="660" soulmax="10000" gainsoulticks="0" fromvoc="4">
+        <formula meleeDamage="0" distDamage="0" defense="0" armor="0" />
+    </vocation>
+</vocations>

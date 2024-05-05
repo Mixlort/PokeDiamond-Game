@@ -1,0 +1,41 @@
+<monster name="Oddish" nameDescription="a oddish" race="grass" race2="poison" experience="200" speed="150">
+    <health now="45" max="45" />
+    <look type="407" corpse="11931" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag passive="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="24" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Absorb" interval="2711" chance="30" range="1" />
+        <attack name="Acid" interval="2758" chance="30" range="3" />
+        <attack name="Absorb" interval="3040" chance="28" range="3" />
+        <attack name="Sleep Powder" interval="5625" chance="18" range="6" />
+        <attack name="Stun Spore" interval="5625" chance="18" range="6" />
+    </attacks>
+   <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="ODDISH!" />
+    </voices>
+    <loot>
+        <item id="12163" chance="10000" countmax="27" />
+        <item id="12155" chance="5000" />
+        <item id="12153" chance="3000" />
+    </loot>
+</monster>

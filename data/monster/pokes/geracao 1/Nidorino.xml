@@ -1,0 +1,40 @@
+<monster name="Nidorino" nameDescription="a nidorino" race="poison" race2="no race" experience="1200" speed="185">
+    <health now="61" max="61" />
+    <look type="429" corpse="11929" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="20" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Bite" interval="2664" chance="30" range="1" />
+        <attack name="Quick Attack" interval="2523" chance="31" range="2" />
+        <attack name="Horn Attack" interval="2758" chance="30" range="1" />
+        <attack name="Poison Sting" interval="2711" chance="30" range="1" />
+        <attack name="Poison Fang" interval="2946" chance="28" range="1" />
+        <attack name="Stomp" interval="2946" chance="24" range="3" />
+		<attack name="Rage" interval="3446" chance="28" range="3" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="NIDORINO!" />
+    </voices>
+    <loot>
+        <item id="12157" chance="4000" />
+        <item id="11443" chance="100" />
+    </loot>
+</monster>

@@ -1,0 +1,5 @@
+<npc name="Marcelo" script="task_system.lua" walkinterval="2000" floorchange="0">
+<look type="3378"/>
+    <parameters>
+    </parameters>
+</npc>

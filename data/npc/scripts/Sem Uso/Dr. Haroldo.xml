@@ -1,0 +1,5 @@
+﻿<npc name="Dr. Haroldo" script="Dr. Haroldo.lua" walkinterval="2000" floorchange="0">
+<look type="2005"/>
+	<parameters>
+	</parameters>
+</npc>

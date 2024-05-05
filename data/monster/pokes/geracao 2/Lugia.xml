@@ -1,0 +1,38 @@
+<monster name="Lugia" nameDescription="a lugia" race="psychic" race2="flying" experience="35590" speed="170">
+    <health now="10000" max="10000" />
+    <look type="959" corpse="3564" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+  <attacks>
+	<attack name="melee" interval="2000" chance="100" range="1" min="-236" max="-279">
+   	</attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="LUUUU!" />
+<voice sentence="GIAAAA!" />
+<voice sentence="LUGIA!" />
+  </voices>
+  <loot>
+  <item id="11449" chance="100000" />
+  </loot>
+<script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+<event name="tp" />
+</script>
+</monster>

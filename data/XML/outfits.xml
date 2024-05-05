@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outfits>
+
+    <outfit type="0" looktype="511" name="Trainer" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="510" name="Trainer" premium="no" unlocked="yes" enabled="yes" />
+
+    <!-- <outfit id="2"premium="yes" quest="6756755"> -->
+    <!-- <outfit type="0" looktype="615" name="Elite Trainer" premium="no" unlocked="yes" enabled="yes" /> -->
+    <!-- <outfit type="1" looktype="614" name="Elite Trainer" premium="no" unlocked="yes" enabled="yes" /> -->
+
+    <outfit type="0" looktype="615" name="Elite Trainer" premium="yes" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="614" name="Elite Trainer" premium="yes" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="512" name="Rapper" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="545" name="Rapper" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="588" name="Jamaican" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="587" name="Jamaican" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="586" name="Oriental" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="585" name="Oriental" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="605" name="Rocket" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="604" name="Rocket" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="495" name="Adventurer" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="494" name="Adventurer" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="513" name="Bussiness" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1419" name="Bussiness" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="517" name="Atletic" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="516" name="Atletic" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="519" name="Punk" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="518" name="Punk" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="521" name="Fisher" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="520" name="Fisher" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="524" name="Mercenary" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="522" name="Mercenary" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="525" name="Hiker" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="523" name="Hiker" premium="no" unlocked="yes" enabled="yes" />
+
+    <!-- GAMEMASTER -->
+
+    <!-- <outfit id="41" access = "5">
+    <list gender="0-3" lookType="664" name="Adminstrador" premium="no" unlocked="yes" enabled="yes" />
+    </outfit> -->
+    <!-- <outfit id="59" access = "5"> -->
+    <!-- <outfit type="0" looktype="2097" name="Gamemaster" premium="no" unlocked="yes" enabled="yes" /> -->
+    <!-- <outfit type="1" looktype="2092" name="Gamemaster" premium="no" unlocked="yes" enabled="yes" /> -->
+    <!-- </outfit> -->
+
+
+    <!-- NATAL -->
+    <outfit type="0" looktype="2204" name="Christmas" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="2205" name="Christmas" premium="no" unlocked="yes" enabled="yes" />
+
+    <!-- <outfit id="43" quest="181640">
+    <outfit type="0" looktype="1084" name="Christmas 2" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1083" name="Christmas 2" premium="no" unlocked="yes" enabled="yes" />
+    </outfit> -->
+
+    <!-- HALLOWEEN -->
+
+    <!-- <outfit id="44" quest="181641">
+    <list gender="0-3" lookType="1140" name="Mummy" premium="no" unlocked="yes" enabled="yes" />
+    </outfit> -->
+
+    <outfit type="0" looktype="1190" name="Bruxa" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1191" name="Dracula" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="0" looktype="1188" name="Caveira" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1189" name="Diaba" premium="no" unlocked="yes" enabled="yes" />
+
+
+    <!-- ESPECIAIS -->
+
+    <!-- <outfit id="48" access="2">
+    <outfit type="0" looktype="1016" name="Staff" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1015" name="staff" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="49" quest="181646">
+    <outfit type="0" looktype="1035" name="Mergulhadora" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1034" name="Mergulhador" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="50" quest="181647">
+    <outfit type="0" looktype="1408" name="Esquiadora" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1407" name="Esquiador" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="51" quest="181648">
+    <outfit type="1" looktype="1441" name="Slash" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="52" quest="181649">
+    <outfit type="0" looktype="1442" name="Playboy" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="53" quest="181650">
+    <outfit type="1" looktype="1443" name="Vinganca" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="54" quest="181651">
+    <outfit type="1" looktype="1444" name="House" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="55" quest="181652">
+    <outfit type="0" looktype="1184" name="Police Officer" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1183" name="Police Officer" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="56" quest="181653">
+    <outfit type="0" looktype="1466" name="Veteran Trainer" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1465" name="Veteran Trainer" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="57" quest="181654">
+    <outfit type="0" looktype="1469" name="Assassin" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1470" name="Assassin" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="58" quest="181655">
+    <outfit type="0" looktype="1498" name="Natal" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="1497" name="Natal" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+
+    <outfit id="61" quest="150420">
+    <outfit type="0" looktype="329" name="Noiva" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="328" name="Noivo" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="64" quest="150431">
+    <outfit type="0" looktype="2126" name="Jogadora" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="2125" name="Jogador" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+
+    <outfit id="62" access="5">
+    <list gender="0-3" lookType="1163" name="Deadpool" premium="no" unlocked="yes" enabled="yes" />
+
+    </outfit>
+    <outfit id="63" access="5">
+    <list gender="0-3" lookType="2124" name="GM" premium="no" unlocked="yes" enabled="yes" />
+
+    </outfit>
+    <outfit id="65" access="6">
+    <outfit type="0" looktype="11" name="Adminstradora" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="10" name="Adminstrador" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="66" access="3">
+    <outfit type="0" looktype="3" name="ZardEvil" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="4" name="ZardEvil" premium="no" unlocked="yes" enabled="yes" />
+    </outfit>
+    <outfit id="67" access="3">
+    <outfit type="0" looktype="6" name="ArcaEvil" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="5" name="ArcaEvil" premium="no" unlocked="yes" enabled="yes" />
+    </outfit> -->
+
+    <outfit type="0" looktype="7" name="Acompanhadora" premium="no" unlocked="yes" enabled="yes" />
+    <outfit type="1" looktype="8" name="Acompanhador" premium="no" unlocked="yes" enabled="yes" />
+
+    <!-- <outfit id="69" quest="4741215"> -->
+    <!-- <list gender="0-3" lookType="2163" name="Poks" premium="no" unlocked="yes" enabled="yes" /> -->
+
+</outfits>

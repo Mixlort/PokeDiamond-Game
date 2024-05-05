@@ -1,0 +1,40 @@
+<monster name="Shiny Claydol" nameDescription="a Shiny Claydol" race="ground" race2="psychic" experience="204.6" speed="195">
+    <health now="190" max="190" />
+    <look type="2167" corpse="12753" />
+  <targetchange interval="0" chance="0" />
+<flags>
+ <flag summonable="1" />
+ <flag attackable="1" />
+ <flag hostile="1" />
+ <flag illusionable="1" />
+ <flag convinceable="1" />
+ <flag pushable="1" />
+ <flag canpushitems="0" />
+ <flag canpushcreatures="0" />
+ <flag targetdistance="5" />
+ 
+ <flag runonhealth="0" />
+ <flag canteleport="20" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Sand Attack" interval="2711" chance="30" range="6" />
+		<!-- <attack name="Slash" interval="2505" chance="29" range="1" /> -->
+        <attack name="Mud Shot" interval="2805" chance="29" range="3" />
+        <attack name="Mud Slap" interval="2805" chance="22" range="3" />
+        <attack name="Earthshock" interval="3087" chance="28" range="6" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="Claydol!" />
+    </voices>
+    <loot>
+        <item id="12337" chance="10000" countmax="50" />
+        <item id="12177" chance="4000" />
+    </loot>
+</monster>

@@ -1,0 +1,43 @@
+<monster name="Maquina Magmar" nameDescription="a Maquina Magmar" race="ghost" race2="poison" experience="9000" speed="1900">
+    <health now="1000" max="1000" />
+    <look type="2154" corpse="12566" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="19" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+   <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+        <attack name="Fire Blast" interval="3246" chance="28" range="6" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+   <attack name="InvisibleGhost" interval="5048" chance="18" range="6" />
+           </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="Maquina!" />
+    </voices>
+    <loot>
+        
+        
+    </loot>
+</monster>

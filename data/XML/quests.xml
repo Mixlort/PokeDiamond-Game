@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+
+    <!-- Task -->
+
+    <!-- <quest name="Task Kill 1 (Mixlort)" startstorageid="30000" startstoragevalue="0">
+        <mission name="Rattata" storageid="30000" startvalue="0" endvalue="10">
+            <missionstate id="0" description="No interior do esgoto." />
+            <missionstate id="10" description="Você matou todos os pokemons."/>
+        </mission>
+        <mission name="Zubat" storageid="30001" startvalue="0" endvalue="3">
+            <missionstate id="0" description="No interior do esgoto." />
+            <missionstate id="3" description="Você matou todos os pokemons."/>
+        </mission>
+    </quest> -->
+
+    <!-- Quests -->
+
+    <quest name="Test" startstorageid="10210" startstoragevalue="0">
+        <mission name="Quest" storageid="10210" startvalue="0" endvalue="1">
+            <missionstate id="0" description=""/>
+            <missionstate id="1" description=""/>
+        </mission>
+    </quest>
+
+</quests>
+

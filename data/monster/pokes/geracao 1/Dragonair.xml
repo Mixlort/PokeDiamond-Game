@@ -1,0 +1,40 @@
+<monster name="Dragonair" nameDescription="a dragonair" race="dragon" race2="no race" experience="3410" speed="190">
+    <health now="61" max="61" />
+    <look type="412" corpse="11864" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="18" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <move name="Headbutt" level="50" interval="15" range="1" isTarget="1" f="50" t="normal" />
+        <move name="Aqua Tail" level="10" interval="15" range="1" isTarget="1" f="60" t="water" />
+        <move name="Thunder Wave" level="12" interval="6" range="1" isTarget="0" f="70" t="electric" />
+        <move name="Dragon Breath" level="16" interval="6" range="1" isTarget="0" f="80" t="dragon" />
+        <move name="Twister" level="15" interval="9" range="1" isTarget="0" f="80" t="dragon" />
+        <move name="Hyper Beam" level="22" interval="6" range="1" isTarget="0" f="100" t="normal" />
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="DRAGONAIR!" />
+    </voices>
+    <loot>
+        <item id="12157" chance="4000" countmax="1" />
+        <item id="12159" chance="4000" />
+        <item id="11449" chance="50" />
+    </loot>
+</monster>

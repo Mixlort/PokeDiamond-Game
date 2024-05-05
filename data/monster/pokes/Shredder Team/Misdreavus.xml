@@ -1,0 +1,36 @@
+<monster name="Misdreavus" nameDescription="a misdreavus" race="ghost" race2="no race" experience="976" speed="135">
+    <health now="60" max="60" />
+    <look type="908" corpse="0" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+	  <attacks>
+      </attacks>
+    <defenses armor="0" defense="0" />
+<voices interval="5000" chance="10">
+	<voice sentence="MIIIS!" />
+<voice sentence="DREAAVUS!" />
+<voice sentence="MISDREAVUS!" />
+  </voices>
+  <loot>
+        <item id="12204" chance="8000" />
+        <item id="12194" chance="4000" />
+        <item id="11450" chance="100" />
+    </loot>
+</monster>

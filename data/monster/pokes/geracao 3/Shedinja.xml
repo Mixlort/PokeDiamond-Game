@@ -1,0 +1,44 @@
+<monster name="Shedinja" nameDescription="a Shedinja" race="bug" race2="ghost" experience="332" speed="160">
+    <health now="1" max="1" />
+    <look type="1805" corpse="12692" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+ <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Quick Attack" interval="2476" chance="31" range="2" />
+        <attack name="Scratch" interval="2664" chance="30" range="1" />
+        <attack name="Bite" interval="2852" chance="29" range="1" />
+        <attack name="Fury Swipes" interval="3416" chance="26" range="1" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+  <voices interval="5000" chance="10">
+	<voice sentence="LEEEDI!" />
+<voice sentence="Shedi!" />
+<voice sentence="Shedinja!" />
+  </voices>
+ <loot>
+        <item id="11453" chance="100" />
+        <item id="12173" chance="4000" />
+        <item id="12174" chance="5000" countmax="5" />
+				<item id="12779" chance="50" countmax="50" />
+		<item id="12778" chance="25" countmax="50" />
+		<item id="12785" chance="5" countmax="50" />
+    </loot>
+</monster>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Pokemon Collector" script="pokemoncollector.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="51" head="114" body="114" legs="114" feet="114" addons="3" />
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu compro pokemons. Voce deseja me {vender} um pokemon?" />
+		<parameter key="message_decline" value="Maybe next time." />
+	</parameters>
+</npc>

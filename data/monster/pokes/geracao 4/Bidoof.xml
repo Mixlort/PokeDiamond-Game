@@ -1,0 +1,37 @@
+<monster name="Bidoof" nameDescription="a Bidoof" race="normal" race2="no race" experience="76" speed="151">
+    <health now="59" max="59" />
+    <look type="1504" corpse="151" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="23" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Quick Attack" interval="2476" chance="31" range="2" />
+        <attack name="Scratch" interval="2664" chance="30" range="1" />
+        <attack name="Bite" interval="2852" chance="29" range="1" />
+        <attack name="Super Fang" interval="3040" chance="28" range="1" />
+		<attack name="Hyper Voice" interval="3340" chance="28" range="3" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="BIDOOF!" />
+    </voices>
+    <loot>
+        <item id="12173" chance="4000" />
+    </loot>
+</monster>

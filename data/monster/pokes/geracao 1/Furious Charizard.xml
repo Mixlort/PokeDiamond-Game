@@ -1,0 +1,45 @@
+<monster name="Furious Charizard" nameDescription="a Furious Charizard" race="fire" race2="dark" experience="6740" speed="170">
+    <health now="700" max="700" />
+    <look type="1073" corpse="12566" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="17" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <move name="Scratch" level="100" interval="10" range="1" isTarget="1" f="40" t="normal" />
+        <move name="Ember" level="100" interval="10" range="8" isTarget="1" f="40" t="fire" />
+        <move name="Flamethrower" level="100" interval="10" range="1" isTarget="0" f="80" t="fire" />
+        <move name="Stomp" level="100" interval="10" range="1" isTarget="0" f="50" t="normal" />
+        <move name="Fireball" level="100" interval="10" range="4" isTarget="1" f="75" t="fire" />
+        <move name="Raging Blast" level="110" interval="7" range="1" isTarget="0" f="100" t="fire" />
+        <move name="Fire Blast" level="110" interval="11" range="1" isTarget="0" f="120" t="fire" />
+        
+        <move name="Hyper Beam" level="100" interval="10" range="1" isTarget="0" f="100" t="normal" />
+        <move name="Magma Storm" level="130" interval="19" range="1" isTarget="0" f="95" t="fire" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="CHARIZARD!" />
+    </voices>
+    <loot>
+        <item id="12152" chance="4000" />
+        <item id="12162" chance="5000" countmax="50" />
+        <item id="12157" chance="4000" />
+        <item id="11447" chance="100" />
+        <item id="12159" chance="4000" />
+    </loot>
+</monster>

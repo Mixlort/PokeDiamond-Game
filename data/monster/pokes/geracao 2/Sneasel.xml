@@ -1,0 +1,43 @@
+<monster name="Sneasel" nameDescription="a sneasel" race="dark" race2="ice" experience="0" speed="160">
+    <health now="55" max="55" />
+    <look type="917" corpse="4439" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+  <attacks>
+		<attack name="melee" interval="2000" chance="100" range="1" min="-77" max="-99" />
+        <attack name="Quick Attack" interval="2711" chance="30" range="1" />
+        <attack name="Ice Shards" interval="2711" chance="30" range="3" />
+        <attack name="Ice Beam" interval="2805" chance="29" range="6" />
+        <attack name="Fury Cutter" interval="2946" chance="28" range="5" />
+        <attack name="Icy Wind" interval="3040" chance="28" range="6" />
+        <attack name="X-Scissor" interval="3202" chance="24" range="6" />
+        <attack name="Agility" interval="5463" chance="19" range="6" />
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="SNEE!" />
+<voice sentence="NEASEEL!" />
+<voice sentence="SNEASEL!" />
+  </voices>
+  <loot>
+        <item id="12202" chance="4000" />
+  </loot>
+</monster>

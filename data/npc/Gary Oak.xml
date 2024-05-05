@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gary Carvalho" script="mixlort.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="3378" head="96" body="118" legs="81" feet="95" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Meu primeiro pokemon foi o Squirtle, fui o primeiro a pegar um pokemon com o professor Carvalho! E você, já pegou?" />
+		<parameter key="message_farewell" value="Squirtle, use Bubble!" />
+		<parameter key="message_walkaway" value="Squirtle, use Bubble!" />
+	</parameters>
+</npc>

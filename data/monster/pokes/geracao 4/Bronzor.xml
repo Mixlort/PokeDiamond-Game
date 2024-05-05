@@ -1,0 +1,41 @@
+<monster name="Bronzor" nameDescription="a Bronzor" race="steel" race2="psychic" experience="3300" speed="143">
+    <health now="57" max="57" />
+    <look type="1507" corpse="228" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+ <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Headbutt" interval="2476" chance="31" range="1" />
+        <attack name="String Shot" interval="2664" chance="30" range="3" />
+        <attack name="Bug Bite" interval="2852" chance="29" range="1" />
+        <attack name="Gust" interval="3040" chance="28" range="5" />
+		<attack name="Fury Cutter" interval="3140" chance="28" range="4" />
+		<attack name="Pin Missile" interval="3250" chance="28" range="4" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+  <voices interval="5000" chance="10">
+	<voice sentence="Bronzor!" />
+  </voices>
+ <loot>
+        <item id="11453" chance="100" />
+        <item id="12173" chance="4000" />
+        <item id="12174" chance="5000" countmax="5" />
+    </loot>
+</monster>

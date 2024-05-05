@@ -1,0 +1,4 @@
+﻿<npc name="Professor Antonio" script="first_prof_antonio.lua" walkinterval="2000" floorchange="0">
+    <look type="1981" head="114" body="114" legs="114" feet="88" addons="0" />
+    <parameters></parameters>
+</npc>

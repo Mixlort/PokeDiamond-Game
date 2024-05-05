@@ -1,0 +1,37 @@
+<monster name="Machop" nameDescription="a machop" race="fighting" race2="no race" experience="2400" speed="155">
+    <health now="70" max="70" />
+    <look type="469" corpse="11910" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="23" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Triple Punch" interval="2758" chance="30" range="1" />
+        <attack name="Mega Punch" interval="2805" chance="29" range="1" />
+        <attack name="Karate Chop" interval="2805" chance="29" range="1" />
+        <attack name="Ground Chop" interval="4852" chance="29" range="4" />
+        <attack name="Strafe" interval="4779" chance="20" range="3" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="MACHOP!" />
+    </voices>
+    <loot>
+        <item id="12337" chance="20000" countmax="100" />
+    </loot>
+</monster>

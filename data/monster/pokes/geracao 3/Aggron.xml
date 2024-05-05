@@ -1,0 +1,50 @@
+<monster name="Aggron" nameDescription="a Aggron" race="steel" race2="rock" experience="224.4" speed="170">
+    <health now="70" max="70" />
+    <look type="1627" corpse="596" />
+  <targetchange interval="10000" chance="0" />
+<flags>
+ <flag summonable="1" />
+ <flag attackable="1" />
+ <flag hostile="1" />
+ <flag illusionable="1" />
+ <flag convinceable="1" />
+ <flag pushable="1" />
+ <flag canpushitems="0" />
+ <flag canpushcreatures="0" />
+ <flag targetdistance="1" />
+ 
+ <flag runonhealth="0" />
+ <flag canteleport="16" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Sand Attack" interval="2852" chance="29" range="4" />
+        <attack name="Iron Tail" interval="2852" chance="29" range="1" />
+        <attack name="Rock Throw" interval="2805" chance="29" range="3" />
+        <attack name="Rock Slide" interval="2993" chance="28" range="3" />
+        <attack name="Earthshock" interval="3040" chance="28" range="6" />
+        <attack name="Falling Rocks" interval="3416" chance="26" range="6" />
+        <attack name="Earthquake" interval="4745" chance="24" range="6" />
+        <attack name="Harden" interval="5625" chance="18" range="6" />
+    </attacks>
+
+
+<defenses armor="0" defense="0">
+</defenses>
+
+ <voices interval="5000" chance="10">
+ <voice sentence="Aggron!" />
+ </voices>
+
+  <loot>
+  		<item id="12779" chance="50" countmax="50" />
+		<item id="12778" chance="25" countmax="50" />
+		<item id="12785" chance="5" countmax="50" />
+  </loot>
+
+</monster>

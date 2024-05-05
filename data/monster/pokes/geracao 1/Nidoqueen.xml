@@ -1,0 +1,44 @@
+<monster name="Nidoqueen" nameDescription="a nidoqueen" race="poison" race2="ground" experience="3345" speed="196">
+    <health now="90" max="90" />
+    <look type="430" corpse="11925" />
+    <targetchange interval="10000" chance="0" />
+    <flags>
+        <flag summonable="1" />
+        <flag hostile="1" />
+        <flag attackable="1" />
+        <flag illusionable="1" />
+        <flag convinceable="1" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag targetdistance="1" />
+        <flag runonhealth="0" />
+        <flag canteleport="13" />
+    </flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100" />
+        <attack name="Quick Attack" interval="3369" chance="26" range="1" />
+        <attack name="Horn Attack" interval="2993" chance="28" range="1" />
+        <attack name="Bite" interval="2758" chance="30" range="1" />
+        <attack name="Poison Sting" interval="2711" chance="30" range="1" />
+        <attack name="Poison Fang" interval="2946" chance="28" range="1" />
+        <attack name="Stomp" interval="2946" chance="28" range="1" />
+        <attack name="Earthshock" interval="3322" chance="26" range="6" />
+        <attack name="Strafe" interval="3792" chance="23" range="3" />
+		<attack name="Mega Punch" interval="3792" chance="23" range="1" />
+        <attack name="Toxic Spikes" interval="4544" chance="19" range="6" />
+    </attacks>
+    <defenses armor="0" defense="0" />
+    <voices interval="5000" chance="10">
+        <voice sentence="NIDOQUEEN!" />
+    </voices>
+    <loot>
+        <item id="12157" chance="4000" />
+        <item id="11443" chance="50" />
+        <item id="11451" chance="50" />
+    </loot>
+</monster>

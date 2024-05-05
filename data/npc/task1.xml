@@ -1,0 +1,5 @@
+<npc name="Mixlort" script="task_system.lua" walkinterval="0" floorchange="0">
+<look type="3526"/>
+    <parameters>
+    </parameters>
+</npc>

@@ -1,0 +1,5 @@
+<npc name="Rodolfo" script="task_system.lua" walkinterval="2000" floorchange="0">
+<look type="3741" head="39" body="122" legs="125" feet="57" addons="0" />
+    <parameters>
+    </parameters>
+</npc>

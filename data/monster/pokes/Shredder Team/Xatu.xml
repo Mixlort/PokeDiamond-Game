@@ -1,0 +1,36 @@
+<monster name="Xatu" nameDescription="a xatu" race="psychic" race2="flying" experience="0" speed="161">
+    <health now="65" max="65" />
+    <look type="889" corpse="0" />
+	<targetchange interval="10000" chance="0" />
+  <flags>
+    <flag summonable="1" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="1" />
+    <flag convinceable="1" />
+    <flag pushable="1" />
+    <flag canpushitems="0" />
+    <flag canpushcreatures="0" />
+    <flag targetdistance="1" />
+    
+    <flag runonhealth="0" />
+   <flag canteleport="15" />
+</flags>
+    <script>
+        <event name="MonsterHealthChange" />
+        <event name="CorpseLoot" />
+    </script>
+  <attacks>
+
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="XAAA!" />
+<voice sentence="TUUU!" />
+<voice sentence="XATU!" />
+  </voices>
+  <loot>
+  </loot>
+
+</monster>
